@@ -1,0 +1,11 @@
+AGCL-Artifact/
+├── agcl/                    # Main source code
+│   ├── models/              # Model implementations
+│   ├── data/                # Data processing
+│   └── utils/               # Utility functions
+├── scripts/                 # Experiment scripts
+├── notebooks/               # Visualization notebooks
+├── tests/                   # Unit tests
+├── Dockerfile               # Docker configuration
+├── requirements.txt         # Python dependencies
+└── README.md               # This file
