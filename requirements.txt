@@ -1,0 +1,26 @@
+# Core dependencies
+torch>=1.10.0
+torchvision>=0.11.0
+numpy>=1.21.0
+pandas>=1.4.0
+scipy>=1.7.0
+scikit-learn>=1.0.0
+networkx>=2.6.0
+
+# Deep learning utilities
+tensorboard>=2.8.0
+
+# Data processing
+joblib>=1.1.0
+tqdm>=4.62.0
+
+# Visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Evaluation
+pytest>=7.0.0
+
+# Optional: CUDA support
+# torch-scatter==2.0.9
+# torch-sparse==0.6.13
