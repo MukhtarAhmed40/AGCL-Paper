@@ -1,0 +1,11 @@
+# Install dependencies
+pip install -r requirements.txt
+
+# Download datasets
+bash scripts/download_datasets.sh
+
+# Run training
+python -m agcl.main --dataset CIC-DDoS2019 --mode train
+
+# Run evaluation
+python -m agcl.main --dataset CIC-DDoS2019 --mode eval
