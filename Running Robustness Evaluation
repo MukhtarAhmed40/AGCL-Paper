@@ -1,0 +1,8 @@
+# Evaluate against Nettack
+python scripts/evaluate_robustness.py --attack nettack
+
+# Evaluate against Metattack  
+python scripts/evaluate_robustness.py --attack metattack
+
+# Evaluate under distribution shift
+python scripts/evaluate_distribution_shift.py
