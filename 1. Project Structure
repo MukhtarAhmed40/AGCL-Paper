@@ -1,0 +1,48 @@
+AGCL-Artifact/
+├── README.md
+├── LICENSE
+├── requirements.txt
+├── setup.py
+├── Dockerfile
+├── docker-compose.yml
+├── agcl/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── config.py
+│   ├── data/
+│   │   ├── __init__.py
+│   │   ├── dataset.py
+│   │   ├── graph_builder.py
+│   │   └── data_loader.py
+│   ├── models/
+│   │   ├── __init__.py
+│   │   ├── encoder.py
+│   │   ├── contrastive.py
+│   │   ├── multi_view.py
+│   │   └── robustness.py
+│   ├── utils/
+│   │   ├── __init__.py
+│   │   ├── metrics.py
+│   │   ├── adversarial.py
+│   │   └── visualization.py
+│   └── evaluation/
+│       ├── __init__.py
+│       ├── robustness_eval.py
+│       ├── ablation_eval.py
+│       └── efficiency_eval.py
+├── notebooks/
+│   ├── figure_generation.ipynb
+│   └── result_analysis.ipynb
+├── scripts/
+│   ├── download_datasets.sh
+│   ├── run_experiments.sh
+│   └── generate_figures.sh
+├── results/
+│   └── (generated during evaluation)
+├── tests/
+│   ├── test_encoder.py
+│   ├── test_contrastive.py
+│   └── test_robustness.py
+└── docs/
+    ├── INSTALL.md
+    └── TUTORIAL.md
