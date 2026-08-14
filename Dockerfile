@@ -1,5 +1,5 @@
 # AGCL Artifact Dockerfile
-# USENIX Security '27 Artifact Evaluation
+# Artifact Evaluation
 
 FROM python:3.9-slim
 
